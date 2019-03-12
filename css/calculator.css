@@ -1,0 +1,72 @@
+body {
+    background-image: url(../img/bg.jpg);
+}
+
+.textview {
+    width: 215px;
+    height: 50px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 0 5px 0;
+    opacity: 0.5;
+}
+
+.button {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ff3333;
+    color: white;
+    box-shadow: 3px 1px 2px #111;
+    opacity: 0.4;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.equally {
+    width: 50px;
+    height: 104px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ff3333;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 1px 2px #111;
+    opacity: 0.4;
+
+}
+
+.equally:hover {
+    opacity: 0.8;
+  }
+
+.zero {
+    height: 50px;
+    width: 104px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ff3333;
+    color: white;
+    box-shadow: 3px 1px 2px #111;
+    opacity: 0.4;
+  }
+.zero:hover {
+    opacity: 0.8;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
